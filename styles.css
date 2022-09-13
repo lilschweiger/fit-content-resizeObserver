@@ -15,7 +15,6 @@ html, body {
 }
 
 .wrap {
-  .container {
   position: fixed;
   height: 100%;
   width: 100%;

@@ -14,8 +14,16 @@ html, body {
   box-sizing: inherit;
 }
 
-.container {
+.wrap {
+  .container {
   position: fixed;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.container {
+  position: relative;
   height: 100%;
   width: 100%;
   overflow: hidden;
